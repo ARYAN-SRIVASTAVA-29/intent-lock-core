@@ -1,5 +1,9 @@
-const API_BASE_URL = process.env.NEXT_PUBLIC_INTENTLOCK_API_URL ?? 'http://localhost:8000/api/v1'
-
+const API_BASE_URL =
+  process.env.NEXT_PUBLIC_INTENTLOCK_API_URL ??
+  (process.env.NODE_ENV === 'production'
+    ? '/api/v1'
+    : 'http://localhost:8000/api/v1')
+    
 export class IntentLockApiError extends Error {
   status: number
   constructor(status: number, message: string) { super(message); this.status = status }
