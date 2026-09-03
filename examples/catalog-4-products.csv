@@ -1,0 +1,5 @@
+sku,product,brand,category,price,inventory,variant,visible
+SONY-XM5-BLK,Sony WH-1000XM5,Sony,ANC Headphones,18999,17,Black,true
+SONY-XM4-BLU,Sony WH-1000XM4,Sony,ANC Headphones,16999,11,Blue,true
+BOSE-QC-BLK,Bose QuietComfort,Bose,ANC Headphones,23999,14,Black,true
+JBL-FLIP6-BLK,JBL Flip 6,JBL,Speakers,9999,19,Black,true

@@ -1,0 +1,41 @@
+# v0 sandbox internal files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.v0-trash/
+.vercel/
+
+# Environment variables
+.env*.local
+
+# Common ignores
+node_modules
+.next/
+.DS_Store
+# Python / FastAPI
+__pycache__/
+*.py[cod]
+.pytest_cache/
+backend/.venv/
+backend/.env
+
+# Local database files
+*.db
+*.sqlite3
+
+# Local Python environments
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+!backend/.env.example
+*.pem
+*.key
+rzp-*-key.csv
+
+# Release archives
+*.zip
