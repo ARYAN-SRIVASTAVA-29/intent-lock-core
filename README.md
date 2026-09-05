@@ -5,6 +5,12 @@
 IntentLock is a control plane for agentic commerce. It gives AI buyers a discoverable catalog and an end-to-end purchase path while ensuring that every money-moving action is **explainable, bounded, gated, replay-safe, and auditable** before it reaches Razorpay.
 
 <p align="center">
+  <a href="https://drive.google.com/file/d/1f1afw6O-DR7hx9k0NwLwdu6RyaOrIQxX/view">
+    <strong>▶ Watch the 5-Minute IntentLock Demo</strong>
+  </a>
+</p>
+
+<p align="center">
   <img src="./docs/intentlock-system-architecture.svg" alt="IntentLock system architecture" width="100%" />
 </p>
 
